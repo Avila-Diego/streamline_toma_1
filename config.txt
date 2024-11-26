@@ -1,7 +1,9 @@
+# Esto se utiliza para crear un entorno de Anaconda
 conda create --name streamlit_env python=3.9
 conda activate streamlit_env
 pip install streamlit
 streamlit hello
 
+# Instalamos los requerimientos del entorno
 pip install -r requirements.txt
 pip freeze > requirements.txt
